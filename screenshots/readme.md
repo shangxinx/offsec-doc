@@ -6,9 +6,9 @@ This folder contains screenshots for the documentations [for this repository.](h
 * [Browser Extension Security Evaluation](#browser-extension-security-evaluation)
 
 #### Automated Security Alert Triaging Tool
-![security_alert_triage](screenshots/dependabotton.png)
+![security_alert_triage](dependabotton.png)
 
 #### GitHub Repository Security Audit Script
-![security_audit_script](screenshots/repo_audit.png)
+![security_audit_script](repo_audit.png)
 
 #### Browser Extension Security Evaluation
