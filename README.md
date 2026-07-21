@@ -38,7 +38,7 @@ It retrieves open Code Scanning, Dependabot, and Secret Scanning alerts, and cat
 
 ![security_audit_script](screenshots/repo_audit.png)
 
-### [Browser Extension Security Evaluation](evaluations/vendor_browser_ext_evaluation.md)
+### [Browser Extension Security Evaluation](evaluations/browser_extension_security_evaluation.md)
 Authorised security evaluation of a commercial browser extension's anti-phishing and data-loss-prevention capabilities, conducted as part of a vendor assessment to test how well its detection policies hold up under adversarial conditions. 
 
 Coverage spanned 8 evaluation areas: risky/VPN extension blocking, brand-impersonation and credit-card-form protections, session/token theft detection, and malicious file-upload scanning.
