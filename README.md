@@ -24,14 +24,14 @@ My path is towards **penetration testing** and **red team operations**, building
 ## Featured Projects
 Tools built to solve real security workflow problems.
 
-### Automated Security Alert Triaging Tool
+### [Automated Security Alert Triaging Tool](projects/automated_security_alert_triage_tool.md)
 A Tampermonkey userscript that pulls GitHub Security Alerts (Dependabot, Code Scanning, Secret Scanning) through the GitHub API and turns them directly into structured Jira tickets. 
 
-The GitHub-to-Jira flow includes deduplication in Jira (so the same alert doesn't get ticketed twice locally), exact priority matching, ADF-formatted ticket descriptions, retry logic for API reliability, and detection that handles GitHub's dynamic page loads. Tickets go into a custom Jira project.
+The GitHub-to-Jira flow includes deduplication (so the same alert doesn't get ticketed twice), exact priority matching, ADF-formatted ticket descriptions, retry logic for API reliability, and detection that handles GitHub's dynamic page loads. Tickets go into a custom Jira project.
 
 ![security_alert_triage](screenshots/dependabotton.png)
 
-### GitHub Repository Security Audit Script
+### [GitHub Repository Security Audit Script](projects/github_repo_security_audit_script.md)
 A Python script that audits all unarchived repositories within a GitHub organization by fetching repository activity and GitHub Advanced Security (GHAS) alert data. 
 
 It retrieves open Code Scanning, Dependabot, and Secret Scanning alerts, and categorizes the results into two CSV files based on whether the repository has been active within a specified timeframe (repo_audit_active.csv and repo_audit_inactive.csv). Repositories with a confirmed zero count across all three alert types are completely skipped to streamline the output.
@@ -41,13 +41,13 @@ It retrieves open Code Scanning, Dependabot, and Secret Scanning alerts, and cat
 ### [Browser Extension Security Evaluation](evaluations/browser_extension_security_evaluation.md)
 Authorised security evaluation of a commercial browser extension's anti-phishing and data-loss-prevention capabilities, conducted as part of a vendor assessment to test how well its detection policies hold up under adversarial conditions. 
 
-Coverage spanned 8 evaluation areas: risky/VPN extension blocking, brand-impersonation and credit-card-form protections, session/token theft detection, and malicious file-upload scanning.
+Coverage spanned over 6 evaluation areas: risky/VPN extension blocking, brand-impersonation and credit-card-form protections, session/token theft detection, and malicious file-upload scanning.
 
 ## Current Focus
-* **Authorized API pentesting**: using HexStrike AI–driven recon workflows (katana, httpx-toolkit, subfinder, arjun, gau, waybackurls) for API surface discovery and scope-aware testing
-* **Mobile application security**: setting up a Kali/Waydroid-based mobile pentesting environment for OAuth flow interception and mobile app testing
-* **Vendor security assessments**: conducting authorised evaluations of commercial security products under adversarial conditions
-* **Building toward red teaming**: progressing from web app security fundamentals (PortSwigger, OWASP Juice Shop) toward offensive tooling and adversary simulation
+* **Security Control Bypass Assessments:** conducting authorised evaluations of commercial security products using adversarial thinking, identifying detection gaps and policy bypasses through condition-based evasion, string/pattern mismatches, and first-visit vs. accumulated-data blind spots
+* **AI-Driven Recon Tooling:** building and iterating on HexStrike AI-driven workflows (katana, httpx-toolkit, subfinder, arjun, gau, waybackurls) for API surface discovery, including scope enforcement and execution-safety configuration
+* **Mobile Application Security:** hands-on experience setting up a Kali Linux VM/Waydroid-based pentesting environment, including OAuth interception tooling
+* **Building toward Red Teaming:** continuously progressing from web app security fundamentals (PortSwigger, OWASP Juice Shop) toward offensive tooling and adversary simulation
 
 ## Connect
 [Github](https://github.com/shangxinx)
